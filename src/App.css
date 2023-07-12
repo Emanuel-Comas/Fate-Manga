@@ -108,13 +108,14 @@
 img{
   width: 30vh;
   height: 40vh;
+  border-radius: 20px;
 }
 
 p{
   display: inline-block;
   position: relative;
   width: 20vh;
-  height: 6vh;
+  height: 7vh;
   color: aqua;
   text-align: center;
   margin-left: 30px;
@@ -129,6 +130,7 @@ p{
   border-radius: 20px;
   margin-top: 20px;
   margin-left: 60px;
+  margin-bottom: 5px;
   font-family: fantasy, sans-serif;
   font-size: 22px;
 }
@@ -150,6 +152,7 @@ button:hover,
 button:focus-visible {
   --_p: 0%;
   --_i: 1;
+  cursor: pointer;
 }
 
 button:active {
